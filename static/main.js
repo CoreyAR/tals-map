@@ -140,6 +140,8 @@ slider.on('input change', function(e) {
 map.addControl(slider);
 
 var range = document.getElementsByClassName('leaflet-range-control')[0]
+range.classList.remove('leaflet-bar');
+range.classList.add('info');
 
 var headerNode = document.createElement('h4');
 headerNode.textContent = 'Year'
