@@ -1,0 +1,14 @@
+{
+  "name": "tals",
+  "version": "0.0.1",
+  "description": "Senior Citizen population density by county in TN",
+  "scripts": {},
+  "author": "Corey Rice",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^3.1.0"
+  },
+  "dependencies": {
+    "leaflet-range": "^0.1.1"
+  }
+}
